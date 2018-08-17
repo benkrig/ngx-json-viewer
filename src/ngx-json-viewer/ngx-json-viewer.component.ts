@@ -16,7 +16,7 @@ export interface Segment {
 export class NgxJsonViewerComponent implements OnChanges {
 
   @Input() json: any;
-  @Input() expanded = true;
+  @Input() expanded: boolean;
   /**
    * @deprecated It will be always true and deleted in version 3.0.0
    */
